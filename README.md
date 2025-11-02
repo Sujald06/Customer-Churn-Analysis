@@ -142,13 +142,11 @@ This project demonstrates how **machine learning and data analytics** can predic
 ## 👤 Author
 
 **Sujal D.**
-💼 Data Science Enthusiast | Machine Learning Practitioner
+📊 Data Analyst | Aspiring Data Scientist
 
-<p align="center">
-  <a href="#">🌐 Portfolio</a> • 
-  <a href="#">💼 LinkedIn</a> • 
-  <a href="#">💻 GitHub</a>
-</p>
+🌐 [Portfolio](https://portfolio-ehtw.vercel.app/)
+💼 [GitHub](https://github.com/Sujald06)
+📫 *Let’s connect and collaborate on data-driven solutions!*
 
 <p align="center">
   ⭐ If you found this project useful, consider giving it a star!
