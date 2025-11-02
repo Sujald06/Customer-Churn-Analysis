@@ -74,7 +74,7 @@ Implemented and compared the following classification models:
 
 ## ⚙️ Requirements
 
-Install all dependencies using the following command:
+Before running the notebook, make sure you have the following dependencies installed:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
@@ -92,21 +92,21 @@ Gradient Boosting delivered the best balance between precision and recall.
 
 XGBoost followed closely, showing strong predictive performance.
 
-Random Forest achieved high accuracy but lower recall, indicating bias toward the majority class.
+Random Forest achieved high accuracy but lower recall — indicating a slight bias toward the majority class.
 
 💡 Key Insights
-Senior citizens and customers with month-to-month contracts have the highest churn rates.
+👴 Senior citizens and customers with month-to-month contracts exhibit higher churn rates.
 
-Customers using fiber optic internet and paying high monthly charges are more likely to leave.
+🌐 Customers using fiber optic internet and paying higher monthly charges are more likely to leave.
 
-Long-tenure customers and those with automatic payment methods show higher retention.
+💳 Long-tenure customers with automatic payment methods tend to remain loyal.
 
 🧠 Learnings
-Using SMOTE improved detection of minority (churn) cases.
+🧩 SMOTE significantly improved detection of minority (churn) cases.
 
-Ensemble methods (Gradient Boosting, XGBoost) outperformed traditional models.
+🚀 Ensemble models like Gradient Boosting and XGBoost outperformed traditional classifiers.
 
-Proper feature scaling and encoding were crucial for stable model performance.
+⚖️ Careful feature scaling and encoding enhanced model stability and performance.
 
 📚 Tools & Technologies
 Category	Tools
@@ -115,13 +115,21 @@ Libraries	Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib, XGBoost, Imbalanced-
 Techniques	EDA, Feature Engineering, Model Tuning, SMOTE, ROC-AUC Analysis
 
 🏁 Conclusion
-This project demonstrates how machine learning and data analysis can be leveraged to predict customer churn and provide actionable insights for customer retention strategies.
+This project demonstrates how machine learning and data analytics can be leveraged to predict customer churn and provide actionable insights to improve retention strategies.
 
-💬 Gradient Boosting emerged as the best model, providing accurate and explainable results.
+💬 Gradient Boosting emerged as the top-performing model, offering both accuracy and interpretability.
 
 👤 Author
 Sujal D.
 💼 Data Science Enthusiast | Machine Learning Practitioner
 
-<p align="center"> <a href="#">🌐 Portfolio</a> • <a href="#">💼 LinkedIn</a> • <a href="#">💻 GitHub</a> </p>
-<p align="center">⭐ If you found this project useful, consider giving it a star!</p> ```
+<p align="center"> <a href="#">🌐 Portfolio</a> • <a href="#">💼 LinkedIn</a> • <a href="#">💻 GitHub</a> </p> <p align="center"> ⭐ If you found this project useful, consider giving it a star! </p> ```
+Would you like me to:
+
+
+
+
+
+
+
+
