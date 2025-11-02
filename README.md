@@ -72,59 +72,85 @@ Implemented and compared the following classification models:
 
 ---
 
-## ⚙️ Requirements
 
+
+## ⚙️ Requirements
 
 Before running the notebook, make sure you have the following dependencies installed:
 
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost imbalanced-learn
+```
 
-📈 Results
-Model	Accuracy	Recall	F1 Score	ROC AUC
-Logistic Regression	0.7037	0.6832	0.4730	0.7641
-Random Forest	0.8620	0.4144	0.5390	0.8524
-K-Nearest Neighbors	0.7523	0.6678	0.5121	0.7766
-Support Vector Machine	0.7857	0.6627	0.5462	0.8225
-XGBoost	0.8330	0.6096	0.5870	0.8418
-🏆 Gradient Boosting	0.8170	0.7003	0.5984	0.8598
-🏆 Model Insights
+---
 
-🌟 Gradient Boosting delivered the best balance between precision and recall.
+## 📈 Results
 
-⚡ XGBoost closely followed with strong predictive performance.
+| Model                    | Accuracy   | Recall     | F1 Score   | ROC AUC    |
+| ------------------------ | ---------- | ---------- | ---------- | ---------- |
+| Logistic Regression      | 0.7037     | 0.6832     | 0.4730     | 0.7641     |
+| Random Forest            | 0.8620     | 0.4144     | 0.5390     | 0.8524     |
+| K-Nearest Neighbors      | 0.7523     | 0.6678     | 0.5121     | 0.7766     |
+| Support Vector Machine   | 0.7857     | 0.6627     | 0.5462     | 0.8225     |
+| XGBoost                  | 0.8330     | 0.6096     | 0.5870     | 0.8418     |
+| 🏆 **Gradient Boosting** | **0.8170** | **0.7003** | **0.5984** | **0.8598** |
 
-🌲 Random Forest achieved high accuracy but lower recall — indicating bias toward the majority class.
+---
 
-💡 Key Insights
+## 🏆 Model Insights
 
-👴 Senior citizens and customers with month-to-month contracts exhibit higher churn rates.
+* 🌟 **Gradient Boosting** delivered the best balance between precision and recall.
+* ⚡ **XGBoost** closely followed with strong predictive performance.
+* 🌲 **Random Forest** achieved high accuracy but lower recall — indicating bias toward the majority class.
 
-🌐 Customers using fiber optic internet and paying higher monthly charges are more likely to leave.
+---
 
-💳 Long-tenure customers with automatic payment methods tend to remain loyal.
+## 💡 Key Insights
 
-🧠 Learnings
+* 👴 Senior citizens and customers with **month-to-month contracts** exhibit higher churn rates.
+* 🌐 Customers using **fiber optic internet** and paying **higher monthly charges** are more likely to leave.
+* 💳 Long-tenure customers with **automatic payment methods** tend to remain loyal.
 
-🧩 SMOTE significantly improved detection of minority (churn) cases.
+---
 
-🚀 Ensemble models like Gradient Boosting and XGBoost outperformed traditional classifiers.
+## 🧠 Learnings
 
-⚖️ Proper feature scaling and encoding enhanced model stability and performance.
+* 🧩 **SMOTE** significantly improved detection of minority (churn) cases.
+* 🚀 Ensemble models like **Gradient Boosting** and **XGBoost** outperformed traditional classifiers.
+* ⚖️ Proper **feature scaling and encoding** enhanced model stability and performance.
 
-📚 Tools & Technologies
-Category	Tools
-Language	Python 🐍
-Libraries	Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib, XGBoost, Imbalanced-learn
-Techniques	EDA, Feature Engineering, Model Tuning, SMOTE, ROC-AUC Analysis
-🏁 Conclusion
+---
 
-This project demonstrates how machine learning and data analytics can predict customer churn and provide actionable insights to enhance customer retention.
+## 📚 Tools & Technologies
 
-💬 Gradient Boosting emerged as the top-performing model, offering both accuracy and interpretability.
+| Category       | Tools                                                                       |
+| -------------- | --------------------------------------------------------------------------- |
+| **Language**   | Python 🐍                                                                   |
+| **Libraries**  | Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib, XGBoost, Imbalanced-learn |
+| **Techniques** | EDA, Feature Engineering, Model Tuning, SMOTE, ROC-AUC Analysis             |
 
-👤 Author
+---
 
-Sujal D.
+## 🏁 Conclusion
+
+This project demonstrates how **machine learning and data analytics** can predict customer churn and provide actionable insights to enhance customer retention.
+
+💬 **Gradient Boosting** emerged as the top-performing model, offering both accuracy and interpretability.
+
+---
+
+## 👤 Author
+
+**Sujal D.**
 💼 Data Science Enthusiast | Machine Learning Practitioner
 
-<p align="center"> <a href="#">🌐 Portfolio</a> • <a href="#">💼 LinkedIn</a> • <a href="#">💻 GitHub</a> </p> <p align="center"> ⭐ If you found this project useful, consider giving it a star! </p>
+<p align="center">
+  <a href="#">🌐 Portfolio</a> • 
+  <a href="#">💼 LinkedIn</a> • 
+  <a href="#">💻 GitHub</a>
+</p>
+
+<p align="center">
+  ⭐ If you found this project useful, consider giving it a star!
+</p>
+
